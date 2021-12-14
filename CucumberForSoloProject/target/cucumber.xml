@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="15.837">
+<testcase classname="Launching the application from a web browser" name="Launching a browser and navigating to the applications url should open the login page of the application" time="5.05">
+<system-out><![CDATA[Given I launch a web browser................................................passed
+When I navigate to the url of the web application...........................passed
+Then I should land on the login page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to the web application" name="Entering valid credentials and clicking submit should send me to the user portal page" time="1.09">
+<system-out><![CDATA[Given I launch a web browser................................................passed
+And I navigate to the url of the web application............................passed
+When I enter valid credentials..............................................passed
+Then I should land on the user portal page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkin feature of the web application" name="Clicking the check in button when I have a class that day should result in a confirmation that I checked in" time="1.368">
+<system-out><![CDATA[Given I launch a web browser................................................passed
+And I navigate to the url of the web application............................passed
+And I enter valid credentials...............................................passed
+When I click the check-in button............................................passed
+Then I should see a message confirming I checked in.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding a class feature of the web App" name="Entering in a valid class Id to the add class form and submitting should add me to the class" time="2.034">
+<system-out><![CDATA[Given I launch a web browser................................................passed
+And I navigate to the url of the web application............................passed
+And I enter valid credentials...............................................passed
+When I click the manage attendence button...................................passed
+And enter a valid class id '3' and submit...................................passed
+Then I should receive confirmation I was added to the class.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding a class feature of the web App" name="Entering in a valid class Id to the add class form and submitting should add me to the class 2" time="2.011">
+<system-out><![CDATA[Given I launch a web browser................................................passed
+And I navigate to the url of the web application............................passed
+And I enter valid credentials...............................................passed
+When I click the manage attendence button...................................passed
+And enter a valid class id '6' and submit...................................passed
+Then I should receive confirmation I was added to the class.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding a class feature of the web App" name="Entering in an invalid class Id to the add class form and submitting should give me an error" time="1.891">
+<system-out><![CDATA[Given I launch a web browser................................................passed
+And I navigate to the url of the web application............................passed
+And I enter valid credentials...............................................passed
+When I click the manage attendence button...................................passed
+And enter an invalid class id '100' and submit..............................passed
+Then I should receive an error message......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding a class feature of the web App" name="Entering in an invalid class Id to the add class form and submitting should give me an error 2" time="1.815">
+<system-out><![CDATA[Given I launch a web browser................................................passed
+And I navigate to the url of the web application............................passed
+And I enter valid credentials...............................................passed
+When I click the manage attendence button...................................passed
+And enter an invalid class id '27' and submit...............................passed
+Then I should receive an error message......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

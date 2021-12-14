@@ -1,0 +1,766 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-02T20:21:35.162Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3966000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Launching a browser and navigating to the applications url should open the login page of the application",
+        "description": "",
+        "id": "launching-the-application-from-a-web-browser;launching-a-browser-and-navigating-to-the-applications-url-should-open-the-login-page-of-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch a web browser",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 749000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the url of the web application",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.openWebApp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should land on the login page",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.confirmLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Launching the application from a web browser",
+    "description": "",
+    "id": "launching-the-application-from-a-web-browser",
+    "keyword": "Feature",
+    "uri": "file:features/F1_LaunchApp.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-02T20:21:40.265Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Entering valid credentials and clicking submit should send me to the user portal page",
+        "description": "",
+        "id": "login-to-the-web-application;entering-valid-credentials-and-clicking-submit-should-send-me-to-the-user-portal-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch a web browser",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the url of the web application",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.openWebApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.enterCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should land on the user portal page",
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.confirmPortalPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the web application",
+    "description": "",
+    "id": "login-to-the-web-application",
+    "keyword": "Feature",
+    "uri": "file:features/F2_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-02T20:21:41.375Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Clicking the check in button when I have a class that day should result in a confirmation that I checked in",
+        "description": "",
+        "id": "checkin-feature-of-the-web-application;clicking-the-check-in-button-when-i-have-a-class-that-day-should-result-in-a-confirmation-that-i-checked-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch a web browser",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the url of the web application",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.openWebApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.enterCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the check-in button",
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.checkIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see a message confirming I checked in",
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.confirmCheckin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checkin feature of the web application",
+    "description": "",
+    "id": "checkin-feature-of-the-web-application",
+    "keyword": "Feature",
+    "uri": "file:features/F3_CheckIn.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-02T20:21:42.829Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Entering in a valid class Id to the add class form and submitting should add me to the class",
+        "description": "",
+        "id": "adding-a-class-feature-of-the-web-app;entering-in-a-valid-class-id-to-the-add-class-form-and-submitting-should-add-me-to-the-class;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch a web browser",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the url of the web application",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.openWebApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 537000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.enterCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the manage attendence button",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.clickManageAttendence()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter a valid class id \u00273\u0027 and submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00273\u0027",
+                  "offset": 23
+                }
+              ],
+              "location": "com.fdmgroup.test.AddClassStepDef.enterValidClassId(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should receive confirmation I was added to the class",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.confirmConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-02T20:21:44.874Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Entering in a valid class Id to the add class form and submitting should add me to the class",
+        "description": "",
+        "id": "adding-a-class-feature-of-the-web-app;entering-in-a-valid-class-id-to-the-add-class-form-and-submitting-should-add-me-to-the-class;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch a web browser",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the url of the web application",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.openWebApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 774000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.enterCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the manage attendence button",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.clickManageAttendence()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 453000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter a valid class id \u00276\u0027 and submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00276\u0027",
+                  "offset": 23
+                }
+              ],
+              "location": "com.fdmgroup.test.AddClassStepDef.enterValidClassId(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should receive confirmation I was added to the class",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.confirmConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-02T20:21:46.910Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Entering in an invalid class Id to the add class form and submitting should give me an error",
+        "description": "",
+        "id": "adding-a-class-feature-of-the-web-app;entering-in-an-invalid-class-id-to-the-add-class-form-and-submitting-should-give-me-an-error;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I launch a web browser",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I navigate to the url of the web application",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.openWebApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.enterCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click the manage attendence button",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.clickManageAttendence()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 515000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter an invalid class id \u0027100\u0027 and submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027100\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "com.fdmgroup.test.AddClassStepDef.enterInvalidClassId(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.confirmErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-02T20:21:48.814Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.CheckinStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Entering in an invalid class Id to the add class form and submitting should give me an error",
+        "description": "",
+        "id": "adding-a-class-feature-of-the-web-app;entering-in-an-invalid-class-id-to-the-add-class-form-and-submitting-should-give-me-an-error;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I launch a web browser",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.launchBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I navigate to the url of the web application",
+            "match": {
+              "location": "com.fdmgroup.test.LaunchAppStepDef.openWebApp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "com.fdmgroup.test.LoginStepDef.enterCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click the manage attendence button",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.clickManageAttendence()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter an invalid class id \u002727\u0027 and submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002727\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "com.fdmgroup.test.AddClassStepDef.enterInvalidClassId(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "com.fdmgroup.test.AddClassStepDef.confirmErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding a class feature of the web App",
+    "description": "",
+    "id": "adding-a-class-feature-of-the-web-app",
+    "keyword": "Feature",
+    "uri": "file:features/F4_AddClass.feature",
+    "tags": []
+  }
+]
